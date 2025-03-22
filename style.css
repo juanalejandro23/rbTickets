@@ -1,5 +1,69 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fff6ed;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    margin: 0;
+    background-color: #fff6ed;
+}
+
+.nav-bar {
+    height: 80px;
+    width: 100%;
+    background-color: #fff6ed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
+
+
+.titulo {
+    font-weight: 800;
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+}
+
+#image-home {
+    width: 100%;
+    margin: 0;
+}
+
+.card {
+    float: left;
+    display: grid;
+    grid-column: auto;
+    justify-content: space-between;
+
+}
+
+
+footer {
+    height: 60px;
+    width: 100%;
+    background-color: #fff6ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto {
+    height: 50px;
+    width: 80%;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.enlaces {
+    height: 30px;
+    float: left;
 }
